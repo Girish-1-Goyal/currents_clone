@@ -1,0 +1,69 @@
+.post_main{
+    display: flex;
+    border: 1px solid lightgrey;
+    height:77px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: white;
+    align-self: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px grey;
+    position: sticky;
+}
+
+.input_field > form{
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.post_avatar{
+    margin-right: 15px;
+}
+
+.input_field > form > button{
+    display: none;
+}
+
+.input_field > form > input{
+    outline: none;
+    border: none;
+    background-color: none;
+    height: 34px;
+    width: 400px;
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.post_icon{
+    margin-top: 25px;
+    margin-right: 20px;
+    color: grey !important;
+}
+
+.post_icon:hover{
+    cursor: pointer;
+    background-color: lightgray;
+    border-radius: 100%;
+}
+.post_title{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+}
+.post_title > p{
+    font-size: 15px;
+}
+.post_title > p:hover{
+    cursor: pointer;
+}
+.title_icon{
+    color: grey !important;
+}
+.title_icon:hover{
+    cursor: pointer;
+    color: black !important;
+}

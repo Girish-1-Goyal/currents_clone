@@ -1,0 +1,136 @@
+.Header_main{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    box-shadow: 1px 1px 8px grey;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+
+.Header_iconBar{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    align-items: center;
+    position: sticky;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.header_menuIcon{
+    color: grey;
+    margin-right: 16px;
+}
+
+.header_menuIcon:hover{
+    border-radius: 100%;
+    background-color: whitesmoke;
+    color: black !important;
+    cursor: pointer;
+}
+
+.menu_img{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid lightgrey;
+}
+
+.menu_img > img{
+    object-fit: contain;
+    height: 30px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+
+.menu_img > img:hover{
+    cursor: pointer;
+}
+
+.menu_img > h3{
+    color: grey;
+    font-weight: 500;
+    margin-right: 27px;
+}
+
+.menu_img > h3:hover{
+    cursor: pointer;
+}
+
+.Header_searchBar{
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header_searchBar > h3{
+    margin-right: 30px;
+    color: grey;
+    font-weight: 500;
+    cursor: auto;
+}
+
+.SearchBar_Header{
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    height: 50px;
+    width: 700px;
+    background-color: whitesmoke;
+    cursor: text;
+}
+
+.SearchBar_Header > input{
+    outline: none;
+    border: none;
+    background: none;
+    width: 84%;
+}
+
+.Search_icon{
+    margin-left: 15px;
+    color: grey !important;
+    margin-right: 20px;
+}
+
+.expand_icon{
+    color: grey !important;
+}
+
+.expand_icon:hover{
+    color: black !important;
+    cursor: pointer;
+}
+
+.right_div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.app_header{
+    color: grey !important;
+    margin-right: 15px;
+
+}
+
+.app_header:hover{
+    color: black !important;
+    cursor: pointer;
+}
+
+.app_avatar{
+    margin-right: 25px;
+    width: 35px !important;
+    height: 35px !important;
+}
+
+.app_avatar:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+.post_recv_main{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.main_sec{
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+    margin-top: 14px;
+    justify-content: space-between;
+}
+
+.main_avatar{
+    margin-right: 12px;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.main_avatar:hover{
+    cursor: pointer;
+}
+
+.info_sec >h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: grey;
+}
+
+.info_sec > h3:hover{
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+.info_sec > p{
+    font-size: 14px;
+    margin-top: -10px;
+    color: grey;
+}
+
+.info_sec > p > span:hover{
+    cursor: pointer;
+}
+
+.business{
+    width: 11px !important;
+    height: 11px !important;
+}
+
+.set{
+    display: flex;
+    align-items: center;
+}
+
+.end_icon{
+    margin-right: 15px;
+}
+
+.launch{
+    margin-right: 15px;
+    color: grey !important;
+}
+
+.more{
+    color: grey !important;
+}
+
+.launch:hover{
+    cursor: pointer;
+    color: black !important;
+}
+
+.more:hover{
+    cursor: pointer;
+    color: black !important;
+}
+
+.main_title{
+    margin-left: 15px;
+    font-weight: 600;
+    color: rgb(83, 81, 81);
+    font-size: 19px;
+    margin-top: -10px;
+}
+
+.main_title:hover{
+    cursor: text;
+}
+
+.main_message{
+    overflow-wrap: anywhere;
+    margin-left: 15px;
+    height: 100px;
+}
+
+.bottom_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-bottom: 15px;
+}
+
+.Thumb_icon{
+    margin-right: 33px;
+    color: grey !important;
+}
+
+.Thumb_icon:hover{
+    cursor: pointer;
+    color: black !important;
+}
+
+.Trending{
+    color: grey !important;
+}
+
+.Trending:hover{
+    cursor: pointer;
+    color: black !important;
+}
+
+.Equalizer{
+    color: grey !important;
+    margin-right: 15px;
+}
+
+.Equalizer:hover{
+    cursor: pointer;
+    color: black !important;
+}
+
+.comment_bar{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.comment > form{
+    display: flex;
+    align-items: center;
+}
+
+.final_avatar{
+    margin-right: 10px;
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.comment > form > input{
+    border: none;
+    outline: none;
+    background-color: none;
+    color: grey;
+}
+
+.comment > form > button{
+    display: none;
+}

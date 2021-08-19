@@ -1,0 +1,151 @@
+.login_page{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_win{
+    background-color:white;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: auto;
+    width: 500px;
+    height: 750px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.upper_login{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.upper_login > img{
+    object-fit: contain;
+    height: 30px;
+    margin-left: 45px;
+
+}
+
+.upper_login > h3{
+    color: rgb(112, 109, 109);
+    margin-left: 50px ;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.upper_login > p{
+    color: rgb(46, 45, 45);
+    margin-top: -7px;
+}
+
+.middle_login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.middle_login > form > input{
+    width: 400px;
+    height: 53px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    color: rgb(59, 59, 59);
+    font-size: 17px;
+    margin-left: 40px;
+}
+
+.middle_login > form > input:focus{
+    outline-color: blue;
+}
+
+.middle_login > form > p{
+    color: #0074b1;
+    font-size: 15px;
+    margin-left: 40px;
+}
+
+.middle_login > form > p:hover{
+    cursor: pointer;
+}
+
+.middle_login > form > h4{
+    color: grey;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+.middle_login > form > h5{
+    color: #0074b1;
+    font-size: 15px;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+
+.middle_login > form > h5:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.buttons > span{
+    color:#0074b1;
+
+}
+
+.buttons > span:hover{
+    cursor: pointer;
+}
+
+.buttons > button{
+    width: 70px;
+    height: 40px;
+    background-color:#0074b1;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons > button:hover{
+    cursor: pointer;
+}   
+.out_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.out_bottom > p{
+    font-size: 13px;
+    color: rgb(46, 45, 45);
+}
+
+.right_side{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right_side > p{
+    font-size: 13px;
+    margin-left: 25px;
+    color: rgb(46, 45, 45);
+}
+
+.out_bottom > p:hover, .right_side > p:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.App{
+    display: flex;
+    flex-direction: column;
+}
+
+.Sidebar_orient{
+    display: flex;
+}
+
+.post_window{
+    flex: 0.37;
+    justify-content: center;
+    margin: 0 auto;
+
+}

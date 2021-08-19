@@ -1,0 +1,16 @@
+.Sidebar_options{
+    display: flex;
+    align-items: center;
+    color: grey;
+    margin-left: 20px;
+}
+
+.side_icon{
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 20px;
+}
+
+.Sidebar_options:hover{
+    cursor: pointer;
+}
